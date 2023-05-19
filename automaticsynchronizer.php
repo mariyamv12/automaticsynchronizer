@@ -44,19 +44,6 @@ define('PS_ABSOLUTE_PATH', 'C:\\laragon\\www\\lolomarket\\img\\p\\');
  * ServerHost
  */
 
-//Qoolshi
-// define('DEBUG', true); // or true better for debugin! o.O
-// define('PS_SHOP_PATH', 'https://dev.qoolshi.com/');
-// define('PS_WS_AUTH_KEY', '1HPCD3J6ZJT6M1EQLI1V1NTLX83ZT7JL'); 
-// current shop lolomrket
-// define('PS_THIS_SHOP_PATH', 'https://lolomarket.site/');
-// define('PS_THIS_WS_AUTH_KEY', '5MKRTBVZXQ2ZH6KF2AI5AHSC39VDE3I9');  
-// current shop samshopmaroc
-// define('PS_THIS_SHOP_PATH', 'https://dev.samshopmaroc.com/');
-// define('PS_THIS_WS_AUTH_KEY', 'LV5XY6W6PM7VAH1HHJLVN66LEE1NLBH5'); 
-
-// define('PS_ABSOLUTE_PATH', '/var/www/html/devsamshopmaroc/img/p/'); 
-
 require_once('PSWebServiceLibrary.php');  
 
 class automaticsynchronizer extends Module
